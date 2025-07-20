@@ -1,10 +1,9 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Week 1 - Introduction to HTML</title>
-</head>
+<?php
+include ('required.php');
+?>
+
 <body>
-  <h1>Introduction to HTML</h1>
+  <h1>Week 2: Introduction to HTML</h1>
   <h2>What is HTML?</h2>
 
   <p>HTML Table, important elements `table`, `tr`, `td`, `th`</p>
@@ -30,5 +29,7 @@
       <td>Defines a cell in a table</td>
     </tr>
   </table>
-</body>
-</html>
+
+<?php
+include ('footer.html');
+?>

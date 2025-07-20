@@ -1,14 +1,10 @@
-<!doctype html>
-<html>
-    <head>
-        <title>
-            JS TRAINING
-        </title>
-    </head>
+<?php
+    include ('header.html');
+?>
 
     <body>
         <h1>My First Project</h1><br>
-        <h1>This is H1 tag</h1>
+        <h2>This is H1 tag</h2>
         <h2>This is H2 tag</h2>
         <h3>This is H3 tag</h3>
         <h4>This is H4 tag</h4>
@@ -29,21 +25,16 @@
 
         <div>
             <div>
-                <a href="week1.html">
-                    <button>Week 1</button>
-                </a>
+                <a href="week1.php">Week 1</a>
             </div><br>
             <div>
-                <a href="week1.html">
-                    <button>Week 2</button>
-                </a>
+                <a href="week2.php">Week 2</a>
             </div><br>
             <div>
-                <a href="week1.html">
-                    <button>Week 3</button>
-                </a>
-
-                <a href="https://www.youtube.com">Google link</a>
+                <a href="week3.php">Week 3</a>
+            </div><br>
+            <div>
+                <a href="week4.php">Week 4</a>
             </div>
         </div>
         <br>

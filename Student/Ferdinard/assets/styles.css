@@ -1,0 +1,65 @@
+.nav{
+  padding:20px;
+  margin-bottom:5px;
+  background-color: blanchedalmond;
+}
+
+body{
+  padding:5px;
+  min-height:100%;
+}
+
+/***Business Card***/
+.card {
+  border: 2px solid transparent;
+  border-radius: 10px;
+  padding: 0px 20px;
+  width: 400px;
+  background-color:antiquewhite;
+}
+
+span {
+  color: teal;
+}
+
+p {
+  color:tomato;
+}
+
+.passport{
+  text-align: center;
+  font-size: 64px;
+  background-color:white;
+  border-radius: 10px;
+  padding: 10px;
+  height:30px;
+}
+
+
+h1{
+  color: crimson;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 4em;
+}
+
+/***Week 3***/
+#main-content {
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid #000;
+  border-radius: 10px;
+ }
+
+.special-message {
+  color: darkblue;
+  font-weight: bold;
+}
+
+.footer{
+  display: flex;
+  padding: 5px;
+  position: fixed;
+  bottom: 0;
+  justify-content: space-evenly;
+  align-items: center;
+}

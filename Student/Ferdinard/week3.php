@@ -1,35 +1,7 @@
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.
-    0">
-    <title>Document</title>
-    <style>
-        h1 {
-            color: crimson;
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            font-size: 4em;
-        }
-
-        #main-content {
-            margin: 20px;
-            padding: 20px;
-            border: 2px solid #000;
-            border-radius: 10px;
-        }
-
-        .special-message {
-            color: darkblue;
-            font-weight: bold;
-        }
-
-        div {
-          background-color: blanchedalmond;
-        }
-    </style>
-</head>
+<?php
+include ('required.php');
+?>
+ 
 <body>
   <!-- <div id="main-content">
     <h1>Hello, world!</h1>
@@ -93,8 +65,10 @@
 
   <img src="./cat.jpg">
   <img src="https://t4.ftcdn.net/jpg/03/03/62/45/240_F_303624505_u0bFT1Rnoj8CMUSs8wMCwoKlnWlh5Jiq.jpg">
-</body>
-</html>
+
+  <div>
+                <a href="https://www.youtube.com">Google link</a>
+            </div><br>
 
 <!--
 // div
@@ -113,3 +87,7 @@
 // textarea
 // img
 -->
+
+<?php
+include ('footer.html');
+?>
