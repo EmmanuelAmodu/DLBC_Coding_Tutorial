@@ -1,3 +1,6 @@
+<DOCTYPE!>
+<html>
+
 <?php
 include ('required.php');
 ?>
@@ -23,3 +26,5 @@ include ('required.php');
 <?php
 include ('footer.html');
 ?>
+</body>
+</html>
