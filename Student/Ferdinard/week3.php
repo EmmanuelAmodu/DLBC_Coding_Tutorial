@@ -1,6 +1,4 @@
-<?php
-include ('required.php');
-?>
+<?php include ('required.php');?>
  
 <body>
   <!-- <div id="main-content">
@@ -88,6 +86,5 @@ include ('required.php');
 // img
 -->
 
-<?php
-include ('footer.html');
-?>
+<?php include ('footer.html');?>
+<?php include ('script.html');?>

@@ -1,6 +1,4 @@
-<?php
-include ('required.php');
-?>
+<?php include ('required.php');?>
 
 <body>
   <h1>Week 2: Introduction to HTML</h1>
@@ -30,6 +28,5 @@ include ('required.php');
     </tr>
   </table>
 
-<?php
-include ('footer.html');
-?>
+<?php include ('footer.html');?>
+<?php include ('script.html');?>

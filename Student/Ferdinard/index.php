@@ -1,6 +1,4 @@
-<?php
-    include ('header.html');
-?>
+<?php include ('header.html'); ?>
 
     <body>
         <h1>My First Project</h1><br>
@@ -40,4 +38,3 @@
         <br>
         ID-Unquely identifies a section of your code.
     </body>
-</html>

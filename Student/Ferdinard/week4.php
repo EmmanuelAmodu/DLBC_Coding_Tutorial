@@ -1,11 +1,10 @@
 <DOCTYPE!>
 <html>
 
-<?php
-include ('required.php');
-?>
+<?php include ('required.php');?>
 
 <body>
+    <h1>Week 4: Card</h1>
     
     <table class="card">
         
@@ -23,8 +22,7 @@ include ('required.php');
         </tr>
     </table>
 
-<?php
-include ('footer.html');
-?>
+<?php include ('footer.html');?>
+<?php include ('script.html');?>
 </body>
 </html>
