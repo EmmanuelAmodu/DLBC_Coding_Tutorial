@@ -1,0 +1,31 @@
+<DOCTYPE!>
+<html>
+<header id="app-header"></header>
+<nav id="app-nav"></nav>
+    <script>
+      let count = 0;
+      function countUp() {
+        count = count + 1; // count += 1; count++;
+        document.getElementById("clickUp").innerHTML = "Button clicked " + count + " times";
+      }
+
+      function countDown() {
+        count = count - 1; // count -= 1; count--;
+        document.getElementById("clickDown").innerHTML = "Button clicked " + count + " times";
+      }
+    </script>
+
+<body>
+    <h1>Introduction to JS</h1>
+
+    <button onclick="countUp()">Count Up</button>
+    <button onclick="countDown()">Count Down</button>
+    <p id="clickDown">Button clicked 0 times</p>
+    <p id="clickUp">Button clicked 0 times</p>
+    
+
+    <footer id="app-footer"></footer>
+    <script src="essentials.js"></script>
+    
+</body>
+</html>
