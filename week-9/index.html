@@ -1,0 +1,63 @@
+<DOCTYPE!>
+<html>
+<head>
+    <script>
+      let count = 0;
+      function updateValue() {
+        const amount = parseFloat(document.getElementById("custom-increment").value);
+        count = count + amount;
+        if (count < 0) {
+          count = 0;
+        }
+  
+        document.getElementById("value-store").innerHTML = "Button clicked " + count + " times";
+      }
+
+      function multiplyValue() {
+        const factor = parseFloat(document.getElementById("custom-increment").value);
+        count = count * factor;
+        if (count < 0) {
+          count = 0;
+        }
+  
+        document.getElementById("value-store").innerHTML = "Button clicked " + count + " times";
+      }
+
+      function divideValue() {
+        const divisor = parseFloat(document.getElementById("custom-increment").value);
+        if (divisor !== 0) {
+          count = count / divisor;
+        }
+  
+        if (count < 0) {
+          count = 0;
+        }
+  
+        document.getElementById("value-store").innerHTML = "Button clicked " + count + " times";
+      }
+
+      function reset() {
+        count = 0;
+        document.getElementById("value-store").innerHTML = "Button clicked " + count + " times";
+      }
+    </script>
+</head>
+
+<body>
+    <h1>Introduction to JS</h1>
+    <input id="custom-increment" type="number" value="1" />
+    <button onclick="reset()">Reset</button>
+
+    <button onclick="updateValue()">Count Up</button>
+    <button onclick="updateValue()">Count Down</button>
+
+    <button onclick="multiplyValue()">Multiply</button>
+    <button onclick="divideValue()">Divide</button>
+
+    <p id="value-store">Button clicked 0 times</p>
+</body>
+</html>
+
+// Create a new button to increment by 2
+// Create a new button to multiply by 2
+// We should be able to increment or multiply by whatever value we set.
